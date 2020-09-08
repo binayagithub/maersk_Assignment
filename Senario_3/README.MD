@@ -9,3 +9,5 @@ docker tag Mservices:latest <XXX.dkr.ecr.us-east-2.amazonaws.com/springboot-Mser
 docker push XXX.dkr.ecr.us-east-2.amazonaws.com/springboot-Mservices:Mservices_$TAG or ${build_id}
 
 - And the image can be deployed to EKS or ECS by necessary cloud specific steps.
+
+- Attached ECS_Deployment_Script for releasing docker images into AWS ECS
